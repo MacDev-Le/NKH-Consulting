@@ -148,16 +148,17 @@ p{
 footer > p {
     text-align: center;
     padding: 10px;
-    background: 0;
+    background: linear-gradient(123deg, #7099f2, #8eb29c);
     color: black;
     font-weight: bold;
     font-size: 80%;
 }
 
-footer {
+.bottom {
     text-align: center;
     padding: 10px;
-    background: 0;
+    background: linear-gradient(123deg, #7099f2, #8eb29c);
+    background-repeat: repeat-y;
 }
 
 .portfolio {
@@ -172,4 +173,23 @@ footer {
 
 .portfolio:hover {
     transform: translateY(-5px);
+}
+
+.sociallinks {
+    margin-top: 0;
+    margin-bottom: 5%;
+}
+
+.sociallinks > a{
+    margin: 0 10px;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.sociallinks > a:hover{
+    text-decoration: underline;
+    font-size: 10px;
+    color: black;
 }
