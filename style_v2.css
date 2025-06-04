@@ -1,0 +1,175 @@
+*{
+    font-family: sans-serif;
+}
+
+.firstheading{
+    color: darkolivegreen;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+.secondheading{
+    color: darkolivegreen;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+h2{
+    color: royalblue;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+p{
+    font-size: 20px;
+}
+
+#paragraph{
+    font-size: 20px;
+    color: black;
+}
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background: linear-gradient(123deg, #7099f2, #e6f270, #8eb29c, #f27082);
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+header{
+    background-color: 0;
+    padding: 1rem 2rem;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    margin-bottom: 32px;
+    text-align: center;
+    animation: fadeIn 3s ease-out forwards;
+    text-decoration: none;
+}
+
+header > a {
+    background-color: 0;
+    padding: 1rem 2rem;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    margin-bottom: 32px;
+    text-align: center;
+    animation: fadeIn 3s ease-out forwards;
+    text-decoration: none;
+}
+
+body > a {
+    background-color: 0;
+    padding: 1rem 2rem;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    margin-bottom: 32px;
+    text-align: center;
+    animation: fadeIn 3s ease-out forwards;
+    text-decoration: none;
+}
+
+h1{
+    margin: 0;
+    font-size: 30px;
+    color: rgb(56, 56, 123);
+    animation: fadeIn 2s ease-out forwards; 
+}
+
+h2{
+    margin: 0;
+    font-size: 30px;
+    color: rgb(56, 56, 123);
+    animation: fadeIn 2s ease-out forwards;
+}
+
+h3{
+    margin: 0;
+    font-size: 30px;
+    color: rgb(56, 56, 123);
+    animation: fadeIn 2s ease-out forwards;
+}
+
+p{
+    font-size: 18px;
+}
+
+.card{
+    background-color: azure;
+    padding: 24px;
+    border-radius: 24px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s;
+    width: 300px;
+    margin: 1rem;
+}
+
+.card:hover{
+    transform: scale(1.2);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    background-color: #7099f2;
+    color: azure;
+    cursor: grabbing;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px);}
+    to { opacity: 1; transform: translateY(0);}
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 32px;
+    }
+
+    .card {
+        width: 90%;
+    }
+}
+
+.secondheading{
+    background-color: 0;
+    padding: 1rem 2rem;
+    color: black;
+    font-weight: bold;
+    font-size: 250%;
+}
+
+footer > p {
+    text-align: center;
+    padding: 10px;
+    background: 0;
+    color: black;
+    font-weight: bold;
+    font-size: 80%;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: 0;
+}
+
+.portfolio {
+    background-color: 0;
+    border-left: 4px;
+    padding: 15px;
+    border-radius: 8px;
+    width: 250px;
+    box-shadow: 0 2px 5px rgba(0,0,0,1.5);
+    transition: transform 0.3s;
+}
+
+.portfolio:hover {
+    transform: translateY(-5px);
+}
