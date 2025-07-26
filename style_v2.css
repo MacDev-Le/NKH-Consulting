@@ -169,16 +169,6 @@ p{
 }
 
 
-footer > p {
-    text-align: center;
-    padding: 10px;
-    background: linear-gradient(123deg, #7099f2, #8eb29c);
-    color: black;
-    font-weight: bold;
-    font-size: 80%;
-}
-
-
 .portfolio {
     background-color: 0;
     padding: 15px;
@@ -264,5 +254,26 @@ body, html {
     z-index: -1;
     transform: translate(-50%, -50%);
     object-fit: cover;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 0%;
+    padding: 0;
+}
+
+
+.sociallinks > a{
+    margin: 0 10px;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer > p {
+    color: black;
+    font-weight: bold;
+    font-size: 13px;
 }
 
