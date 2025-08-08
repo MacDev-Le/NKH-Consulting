@@ -40,14 +40,13 @@ body{
 }
 
 header{
-    background-color: 0;
+    background-color: transparent;
     padding: 1rem 2rem;
-    border-radius: 20px;
+    border-radius: 1.04%;
     box-shadow: 0 4px 20px rgba(0,0,0,0.1);
     margin-bottom: 32px;
     text-align: center;
     animation: fadeIn 3s ease-out forwards;
-    text-decoration: none;
 }
 
 nav > a {
@@ -227,7 +226,6 @@ body, html {
     height: 100%;
     width: 100%;
     font-family: sans-serif;
-    overflow: hidden;
 }
 
 /* Container to hold video and content */
@@ -239,7 +237,7 @@ body, html {
 
 /* Style the background video */
 .background-video {
-    position: absolute;
+    position: fixed;
     top: 50%;
     left: 50%;
     min-width: 100%;
