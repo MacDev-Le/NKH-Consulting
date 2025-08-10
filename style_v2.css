@@ -43,10 +43,9 @@ header{
     padding: 1rem 2rem;
     border-radius: 1.04%;
     box-shadow: 0 4px 20px rgba(0,0,0,0.1);
-    margin-bottom: 32px;
-    text-align: center;
     animation: fadeIn 3s ease-out forwards;
 }
+
 
 nav > a {
     background-color: 0;
@@ -136,6 +135,7 @@ p{
     transition: transform 0.3s ease, box-shadow 0.3s;
     width: 300px;
     margin: 1rem;
+    margin-bottom: 60px;
 }
 
 .card:hover{
@@ -184,6 +184,7 @@ p{
     width: 200px;
     box-shadow: 0 2px 5px rgba(0,0,0,1.5);
     text-decoration: none;
+    margin-bottom: 60px;
 }
 
 .sociallinks {
