@@ -17,9 +17,6 @@
     font-family: sans-serif;
 }
 
-p{
-    font-size: 20px;
-}
 
 #paragraph{
     font-size: 20px;
@@ -126,6 +123,11 @@ h3{
 
 p{
     font-size: 18px;
+    box-sizing: content-box;
+    text-wrap: inherit;
+    max-width: 800px;   /* controls line length */
+    margin: 0 auto;     /* centers the text */
+    line-height: 1.6;   /* improves readability */
 }
 
 .card{
