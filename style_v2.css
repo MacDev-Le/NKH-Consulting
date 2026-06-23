@@ -92,7 +92,7 @@ body > a {
 
 h1{
     margin: 0;
-    font-size: 150px;
+    font-size: 100px;
     color: rgb(56, 56, 123);
     animation: fadeIn 2s ease-out forwards;
     text-align: center;
@@ -100,7 +100,7 @@ h1{
 
 h2{
     margin: 0;
-    font-size: 50px;
+    font-size: 30px;
     color: rgb(56, 56, 123);
     animation: fadeIn 2s ease-out forwards;
     text-align: center;
@@ -121,7 +121,6 @@ p{
     max-width: 800px;   /* controls line length */
     margin: 0 auto;     /* centers the text */
     line-height: 1.6;   /* improves readability */
-    margin-bottom: 20px;
 }
 
 .card{
